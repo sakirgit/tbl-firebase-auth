@@ -1,0 +1,76 @@
+
+input[type=date]{
+    color: #666;
+    padding: .75em;
+    height: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #eaeaea;
+    border-radius: 2px;
+    background: #fafafa;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: all .2s linear;
+}
+
+.tfa_form input[type=email], 
+.tfa_form input[type=number], 
+.tfa_form input[type=password], 
+.tfa_form input[type=reset], 
+.tfa_form input[type=search], 
+.tfa_form input[type=tel], 
+.tfa_form input[type=text], 
+.tfa_form input[type=url], 
+.tfa_form input[type=date], 
+.tfa_form select, 
+.tfa_form textarea{
+	width: 100%;
+} 
+.tfa_form .entry-content p {
+    margin-bottom: 1em;
+}
+.tfa_form p {
+    width: 100%;
+}
+.tfa_form .elementor-column{
+    display: initial;
+	 padding: 5px;
+}
+.upload_image_prev{
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+    border: 1px solid #dd
+}
+
+.loader {
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #37C5FF;
+  border-bottom: 10px solid #37C5FF;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+}
+
+.menu-profile{
+	display: none;
+}
+.fb_auth_loggedin .menu-profile{
+	display: block;
+}
+.fb_auth_loggedin .menu-auth{
+	display: none;
+}
+.home page-template-default page page-id-4446 logged-in admin-bar wp-custom-logo ehf-footer ehf-template-astra ehf-stylesheet-astra ast-desktop ast-page-builder-template ast-no-sidebar astra-3.2.0 ast-header-custom-item-inside ast-single-post ast-inherit-site-logo-transparent elementor-default elementor-kit-1182 elementor-page elementor-page-4446 customize-support e--ua-blink e--ua-chrome e--ua-webkit ast-mouse-clicked
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
